@@ -12,6 +12,9 @@ Code to upload directory to GCS:
 from cloud_upload import upload_to_gcs
 upload_to_gcs.upload_directory(directory_path, destination_bucket_name, aws_credentials, allowed_extensions)
 
+
+
+
 In these functions,
 
 directory_path is the local path of directory to be uploaded. Eg.: directory_path = "path/to/directory"
