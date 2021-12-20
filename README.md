@@ -15,7 +15,7 @@ from cloud_upload import upload_to_gcs
 upload_to_gcs.upload_directory(directory_path, destination_bucket_name, aws_credentials, allowed_extensions)
 
 
-
+----
 
 In these functions,
 
