@@ -4,13 +4,15 @@ This is an upload to cloud package. This will help to upload directory and subdi
 
 Code to upload directory to AWS:
 --------------------------------
-  from cloud_upload import upload_to_aws
-  upload_to_aws.upload_directory(directory_path, destination_bucket_name, destination_blob_name, gcs_credentials, allowed_extensions)
+from cloud_upload import upload_to_aws
+
+upload_to_aws.upload_directory(directory_path, destination_bucket_name, destination_blob_name, gcs_credentials, allowed_extensions)
 
 Code to upload directory to GCS:
 --------------------------------
-  from cloud_upload import upload_to_gcs
-  upload_to_gcs.upload_directory(directory_path, destination_bucket_name, aws_credentials, allowed_extensions)
+from cloud_upload import upload_to_gcs
+
+upload_to_gcs.upload_directory(directory_path, destination_bucket_name, aws_credentials, allowed_extensions)
 
 
 
